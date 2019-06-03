@@ -81,7 +81,7 @@ enum jetsonGPIONumber {
 enum jetsonTX1GPIONumber {
        gpio36 = 36,      // J21 - Pin 32 - Unused - AO_DMIC_IN_CLK
        gpio37 = 37,      // J21 - Pin 16 - Unused - AO_DMIC_IN_DAT
-       gpio38 = 38,      // J21 - Pin 13 - Bidir  - GPIO20/AUD_INT
+       //gpio38 = 38,      // J21 - Pin 13 - Bidir  - GPIO20/AUD_INT
        gpio63 = 63,      // J21 - Pin 33 - Bidir  - GPIO11_AP_WAKE_BT
        gpio184 = 184,    // J21 - Pin 18 - Input  - GPIO16_MDM_WAKE_AP
        gpio186 = 186,    // J21 - Pin 31 - Input  - GPIO9_MOTION_INT
