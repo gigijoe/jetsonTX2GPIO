@@ -49,3 +49,15 @@ gpioSetValue(LEDControlPin, off);    //Pull low
 
 That's it, very easy. If you like to use C/C++ to control GPIO Pin, just include "jetsonGPIO.h" in the cpp file.
 
+# Jetson Xavier NX GPIO
+
+```
+/* To initialize */
+jetsonXavierGPIONumber LEDControlPin = gpio422; 
+gpioExport(LEDControlPin);
+gpioSetDirection(LEDControlPin,outputPin);
+
+/* To control pin high or low  */
+gpioSetValue(LEDControlPin, on);     //Pull high
+gpioSetValue(LEDControlPin, off);    //Pull low
+```

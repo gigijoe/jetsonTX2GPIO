@@ -126,6 +126,27 @@ enum jetsonNanoGPIONumber {
        gpio232 = 232, // J41 Pin 16
 } ;
 
+enum jetsonXavierGPIONumber {
+       gpio422 = 422,      // Pin  7
+       gpio428 = 428,      // Pin 11
+       gpio351 = 351,      // Pin 12
+       gpio424 = 424,      // Pin 13
+       gpio393 = 393,      // Pin 15
+       gpio256 = 256,      // Pin 16
+       gpio344 = 344,      // Pin 21
+       gpio417 = 417,      // Pin 22
+       gpio251 = 251,      // Pin 29
+       gpio250 = 250,      // Pin 31
+       gpio257 = 257,      // Pin 32
+       gpio248 = 248,      // Pin 33
+       gpio354 = 354,      // Pin 35
+       gpio429 = 429,      // Pin 36
+       gpio249 = 249,      // Pin 37
+       gpio353 = 353,      // Pin 38
+       gpio352 = 352,      // Pin 40
+
+} ;
+
 int gpioExport ( jetsonGPIO gpio ) ;
 int gpioUnexport ( jetsonGPIO gpio ) ;
 int gpioSetDirection ( jetsonGPIO, pinDirection out_flag ) ;
