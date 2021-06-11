@@ -98,7 +98,7 @@ enum jetsonTX2GPIONumber {
        gpio297 = 297,      // J21 - Pin 32 - GPIO12
        gpio467 = 467,      // J21 - Pin 36 - GPIO16
        gpio394 = 394,      // J21 - Pin 38 - GPIO20
-       gpio393 = 393,      // J21 - Pin 40 - GPIO21
+       //gpio393 = 393,      // J21 - Pin 40 - GPIO21
 } ;
 
 enum jetsonNanoGPIONumber {
@@ -126,25 +126,30 @@ enum jetsonNanoGPIONumber {
        gpio232 = 232, // J41 Pin 16
 } ;
 
-enum jetsonXavierGPIONumber {
-       gpio422 = 422,      // Pin  7
-       gpio428 = 428,      // Pin 11
-       gpio351 = 351,      // Pin 12
-       gpio424 = 424,      // Pin 13
-       gpio393 = 393,      // Pin 15
-       gpio256 = 256,      // Pin 16
-       gpio344 = 344,      // Pin 21
-       gpio417 = 417,      // Pin 22
-       gpio251 = 251,      // Pin 29
-       gpio250 = 250,      // Pin 31
-       gpio257 = 257,      // Pin 32
-       gpio248 = 248,      // Pin 33
-       gpio354 = 354,      // Pin 35
-       gpio429 = 429,      // Pin 36
-       gpio249 = 249,      // Pin 37
-       gpio353 = 353,      // Pin 38
-       gpio352 = 352,      // Pin 40
+enum jetsonXavierNxGPIONumber {
 
+       gpio436 = 436,      // Pin 7
+       gpio428 = 428,      // Pin 11
+       gpio445 = 445,      // Pin 12
+       gpio480 = 480,      // Pin 13
+       gpio268 = 268,      // Pin 15
+       gpio484 = 484,      // Pin 16
+       gpio483 = 483,      // Pin 18
+       gpio493 = 493,      // Pin 19
+       gpio492 = 492,      // Pin 21
+       gpio481 = 481,      // Pin 22
+       gpio491 = 491,      // Pin 23
+       gpio494 = 494,      // Pin 24
+       gpio495 = 495,      // Pin 26
+       gpio421 = 421,      // Pin 29
+       gpio422 = 422,      // Pin 31
+       gpio424 = 424,      // Pin 32
+       gpio393 = 393,      // Pin 33
+       gpio448 = 448,      // Pin 35
+       gpio429 = 429,      // Pin 36
+       gpio482 = 482,      // Pin 37
+       gpio447 = 447,      // Pin 38
+       gpio446 = 446,      // Pin 40
 } ;
 
 int gpioExport ( jetsonGPIO gpio ) ;
